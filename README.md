@@ -51,8 +51,8 @@ sudo apt install jq curl wget
 
 ### 🔧 可用選項 / Options
 
-| 選項 | 說明 | Option | Description |
-|------|------|--------|-------------|
+| 選項 | 說明 | Option |
+|------|------|--------|
 | `-s`, `--server-settings PATH` | `server-settings.json` 路徑 | Path to `server-settings.json` |
 | `-u`, `--username USERNAME` | Factorio 帳號 | Factorio account |
 | `-t`, `--token TOKEN` | Factorio token | Factorio token |
@@ -70,6 +70,15 @@ sudo apt install jq curl wget
 #### 更新模組 / Update Mods
 ```bash
 ./update_mod.sh
+```
+```bash
+# Example
+~$ ./update_mod.sh
+Checking: FluidMustFlow,maraxsis,SpidertronEnhancements,SpidertronPatrols
+FluidMustFlow by raiguard 1.4.2 → 1.4.2 No Changed
+SpidertronEnhancements by Xorimuth 1.10.8 → 1.10.8 No Changed
+SpidertronPatrols by Xorimuth 2.6.3 → 2.6.3 No Changed
+maraxsis by notnotmelon 1.30.16 → 1.30.17 Update Completed
 ```
 
 #### 檢查是否需要更新模組(Dry Run) / Check Update Mods (Dry Run)
