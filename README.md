@@ -14,6 +14,24 @@ This project includes two Bash scripts for automating Factorio headless server a
 
 ---
 
+## 📁 建議資料夾結構 / Suggested Directory Layout
+
+```
+factorio/
+├── mods/
+│   └── *.zip
+├── mod_backup/
+│   └── mods_backup_*.tar.gz
+├── data/
+│   └── server-settings.json
+├── bin/
+│   └── x64/factorio
+├── update_mod.sh
+└── update_server.sh
+```
+
+---
+
 ## ⚙️ 安裝需求 / Requirements
 
 請先安裝以下套件：  
@@ -85,24 +103,6 @@ This script compares your local headless server version with the official latest
 1. 查詢官方版本與本地版本 / Check the latest official version and the local installed version
 2. 若不同，詢問是否下載 / If they differ, prompt whether to download the update
 3. 自動下載並解壓縮至安裝路徑 / Automatically download and extract to the installation directory
-
----
-
-## 📁 建議資料夾結構 / Suggested Directory Layout
-
-```
-factorio/
-├── mods/
-│   └── *.zip
-├── mod_backup/
-│   └── mods_backup_*.tar.gz
-├── data/
-│   └── server-settings.json
-├── bin/
-│   └── x64/factorio
-├── update_mod.sh
-└── update_server.sh
-```
 
 ---
 
